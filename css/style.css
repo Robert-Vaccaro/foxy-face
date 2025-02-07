@@ -582,25 +582,27 @@ a:focus {
 
 .service_section .box .img-box {
   position: relative;
-  width: 145px;
-  height: 145px;
-  margin-bottom: -72.5px;
+  
+  width: 245px;
+  height: 245px;
+  margin-bottom: 16px;
 }
 
 .service_section .box .img-box img {
   width: 100%;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   border: 5px solid #ffffff;
 }
 
 .service_section .box .detail-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   background-color: #E3BC9A;
   color: black;
   text-align: center;
-  height: 350px;
+  height: 550px;
   padding: 25px;
   border-radius: 10px;
 }
