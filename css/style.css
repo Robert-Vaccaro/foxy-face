@@ -602,7 +602,7 @@ a:focus {
   background-color: #E3BC9A;
   color: black;
   text-align: center;
-  height: 300px;
+  min-height: 350px;
   padding: 25px;
   border-radius: 10px;
 }
